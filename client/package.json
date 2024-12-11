@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "@reduxjs/toolkit": "^2.0.1",
-    "firebase": "^10.14.0",
+    "firebase": "^10.14.1",
     "flowbite-react": "^0.7.0",
     "mern-blog": "file:..",
     "moment": "^2.29.4",
