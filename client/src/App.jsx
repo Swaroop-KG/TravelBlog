@@ -13,7 +13,7 @@ import UpdatePost from './pages/UpdatePost';
 import PostPage from './pages/PostPage';
 import ScrollToTop from './components/ScrollToTop';
 import Search from './pages/Search';
-import ChatbotPage from './pages/chatbot';
+import ChatbotPage from './pages/Chatbot';
 
 
 export default function App() {
