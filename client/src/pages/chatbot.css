@@ -73,6 +73,7 @@ body {
   border-radius: 50%;
   filter: drop-shadow(2px 2px 10px #fff);
   flex-shrink: 0;
+  
 }
 
 .user-chat-box {
@@ -85,10 +86,16 @@ body {
 
 .user-img {
   order: 1; /* Position user's image to the left */
+  box-shadow: 2px 2px 10px #fff;
+  
+  
+  
 }
 
 .ai-img {
   order: -1; /* Position AI's image to the right */
+ 
+  box-shadow: 2px 2px 10px #fff;
 }
 
 .prompt-area {
@@ -177,6 +184,7 @@ body {
   #aiImage {
     width: 50px;
     height: 50px;
+    border-radius:50%;
   }
 }
 
@@ -208,6 +216,8 @@ body {
   #aiImage {
     width: 40px;
     height: 40px;
+    border-radius:50%;
+
   }
 }
 
