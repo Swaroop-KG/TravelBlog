@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "type": "module",
+  "main": "api/index.js",
   
   "scripts": {
     "test":"echo\"Error:no test speciefied\" && exit 1",
