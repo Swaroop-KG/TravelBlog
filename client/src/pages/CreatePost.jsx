@@ -31,7 +31,7 @@ export default function CreatePost() {
       setImageUploadError(null);
       const storage = getStorage(app);
       const fileName = new Date().getTime() + '-' + file.name;
-      const storageRef = ref(storage, 'image/.*' + fileName);
+      const storageRef = ref(storage, fileName);
       const uploadTask = uploadBytesResumable(storageRef, file);
       uploadTask.on(
         'state_changed',
@@ -102,7 +102,7 @@ export default function CreatePost() {
               setFormData({ ...formData, category: e.target.value })
             }
           >
-            <option value='uncategorized'>Select a category</option>
+             <option value='uncategorized'>Select a category</option>
             <option value='Destinations'>Destinations</option>
             <option value='Food'>Food</option>
             <option value='Activities'>Activities</option>
