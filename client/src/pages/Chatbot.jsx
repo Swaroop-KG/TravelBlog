@@ -13,7 +13,7 @@ const ChatbotPage = () => {
   const [imageMime, setImageMime] = useState(null);
   const [isLoading, setIsLoading] = useState(false);  // Track loading state
 
-  const API_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=AIzaSyCoj_9t2jKaVKmd25TUpOS4mNpcmeQFDyo`;
+  const API_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=AIzaSyDPlL9JsEPPpRl02c9ULvgsNBOZ-b975Y4`;
 
   const handleSubmit = (e) => {
     e.preventDefault();
